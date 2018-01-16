@@ -1,0 +1,1 @@
+・Light Field Cameraを自己位置推定に使う手はありか。
