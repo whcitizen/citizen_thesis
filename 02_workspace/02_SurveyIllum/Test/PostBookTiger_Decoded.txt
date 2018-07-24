@@ -1,0 +1,65 @@
+PostBookTiger_Decoded.mat Contents
+
+ÅZDecodeOptions(struct)
+                  OptionalTasks: {}
+               ColourHistThresh: 0.0100
+         WhiteImageDatabasePath: 'Cameras\WhiteImageDatabase.mat'
+    WhiteProcDataFnameExtension: '.grid.json'
+     WhiteRawDataFnameExtension: '.RAW'
+           MetadataFnamePattern: '_metadata.json'
+         SerialdataFnamePattern: '_private_metadata.json'
+                  DemosaicOrder: 'grbg'
+                 WhiteImageInfo: [1Å~1 struct]
+                    LevelLimits: [64 1023]
+                   ColourMatrix: [3Å~3 double]
+                  ColourBalance: [1 1 1]
+                          Gamma: 1
+                   ResampMethod: 'fast'
+                      Precision: 'single'
+                        DoDehex: 1
+                     DoSquareST: 1
+                      NColChans: 3
+                   NWeightChans: 1
+                    OutputScale: [1.1316 1.1316 1.1547 1.1547]
+
+ÅZGeneratedByInfo(struct)
+     mfilename: 'LFUtilDecodeLytroFolder'
+          time: '12Jul2018_192252'
+    VersionStr: 'v0.4 released 12-Feb-2015'
+    
+ÅZLensletGridModel(struct)
+            HSpacing: 14.2848
+            VSpacing: 12.3722
+             HOffset: 6.7113
+             VOffset: 5.5556
+                 Rot: 0.0013
+         Orientation: 'horz'
+    FirstPosShiftRow: 2
+                UMax: 541
+                VMax: 434
+                
+ÅZLF
+  size(LF) = 15, 15, 434, 625, 4
+  
+ÅZLFMetadata(struct)
+         image: [1Å~1 struct]
+     generator: 'lightning'
+        schema: 'http://schema.lytro.com/lfp/lytro_illum_public/1.3.5/lytro_illum_public_schema.json'
+        camera: [1Å~1 struct]
+       devices: [1Å~1 struct]
+      settings: [1Å~1 struct]
+    algorithms: [1Å~1 struct]
+       picture: [1Å~1 struct]
+    SerialData: [1Å~1 struct]
+
+ÅZRectOptions(struct)
+    CalibrationDatabaseFname: 'Cameras\CalibrationDatabase.mat'
+            MaxGridModelDiff: 1.0000e-05
+
+ÅZWhiteImageMetadata(struct)
+        camera: [1Å~1 struct]
+          type: 'lightField'
+         image: [1Å~1 struct]
+       devices: [1Å~1 struct]
+         modes: [1Å~1 struct]
+    SerialData: [1Å~1 struct]
