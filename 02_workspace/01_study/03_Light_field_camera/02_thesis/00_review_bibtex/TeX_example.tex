@@ -1,0 +1,143 @@
+%This is the source code of the document "LaTeX Example".
+\documentclass[english,a4paper]{jsarticle}
+\usepackage{amsmath,amssymb}%used when you write numerical formula(数式)
+\usepackage{bm}%used when you write bold italic character (vector)
+\usepackage{float}%used when you use [H] command in figure and table
+\usepackage[dvipdfmx]{graphicx}%used when you use graphics
+\usepackage{tabularx}%used when you use table
+
+\title{\LaTeX{} Example}
+\author{Yuichi TSURUNO}
+\date{2018/06/05}
+
+\begin{document}
+\pagestyle{empty}
+\setlength{\baselineskip}{16pt}%set if you want to change linespace
+
+\maketitle
+
+\tableofcontents%目次
+
+\listoffigures%図目次
+
+\listoftables%表目次
+
+\newpage%改ページ
+
+\pagestyle{headings}
+
+\section{Lists (from presentation slides)}
+\subsection{Advantages}
+\begin{enumerate}
+	\item Various mathematical Equations are written easily.
+	\item Layout is better.
+	\item Table of contents（目次）and bibliography （参考文献）are produced automatically.
+	\item Work speedy
+\end{enumerate}
+
+\subsection{Disadvantages}
+\begin{itemize}
+\item Studying commands is needed.
+\item Table and coloring are bothersome.
+\item Install is difficult.
+\begin{itemize}
+	\item By TeX Live (\LaTeX{} with many package).
+\end{itemize}
+\item Compile error
+\end{itemize}
+
+\section{Example of Various Function}
+\subsection{Numerical Formula}
+\subsubsection{Basic?}
+%Verbatim is used when you display commands as they are.
+\begin{verbatim}
+\[\left(\int _0^\infty \frac{\sin x}{\sqrt{x}}\mathrm{dx}\right)^2
+=\sum_{k=0}^\infty \frac{(2k)!}{2^{2k}(k!)^2}\frac{1}{2k+1}
+=\prod_{k=1}^{\infty}\frac{4k^2}{4k^2-1}=\frac{\pi}{2}\]
+\end{verbatim}
+\[\left(\int _0^\infty \frac{\sin x}{\sqrt{x}}\mathrm{dx}\right)^2
+=\sum_{k=0}^\infty \frac{(2k)!}{2^{2k}(k!)^2}\frac{1}{2k+1}
+=\prod_{k=1}^{\infty}\frac{4k^2}{4k^2-1}=\frac{\pi}{2}\]
+
+\[\frac{\partial u}{\partial t}
++u\frac{\partial u}{\partial x}+v\frac{\partial u}{\partial y}
++w\frac{\partial u}{\partial z}
+=-\frac{1}{\rho}\frac{\partial p}{\partial x}\]
+
+\[\frac{\partial \bm{v}}{\partial t}+\bm{v}\cdot \nabla\bm{v}
+=-\frac{1}{\rho}\nabla p+\bm{g}\]
+
+$y=ax^2+bx+c$ means parabola.
+
+\subsubsection{Matrix}
+\begin{equation}
+\mathrm{det}\begin{pmatrix}
+X_0'' & x' & u'' \\
+Y_0'' & y' & v'' \\
+Z_0'' & z' & w''
+\end{pmatrix}
+=
+\begin{vmatrix}
+X_0'' & x' & u'' \\
+Y_0'' & y' & v'' \\
+Z_0'' & z' & w''
+\end{vmatrix}
+=0
+\end{equation}
+
+\newpage
+
+\section{Figure}
+Fig. \ref{fig:logo} is as follows.
+\begin{figure}[H]
+	\centering
+	\graphicspath{{graphics/}}
+	\includegraphics[width=2cm]{logo.png}
+	\caption{Logo of Survey Lab.}
+	\label{fig:logo}
+\end{figure}%
+
+\section{Table}
+Table \ref{table1} is as follows.
+\begin{table}[H]
+	\begin{center}
+		\caption{An example of table (from my graduation thesis)}
+		\begin{tabular}{l|rrrr}
+			& OLS & cdacv5 & cdacv10 & cdacv30\\ \hline
+			選択された説明変数 & 3 & 30 & 31 & 34\\
+%			決定係数 & 0.173 & 0.452 & 0.458 & 0.462\\
+			$R_f^2$ & 0.171 & 0.263 & 0.272 & 0.277\\
+%			排除率 & 0.000 & 0.907 & 0.904 & 0.894\\
+%			正則化係数 &  & 33450.683 & 29093.698 & 27132.880\\
+			全説明変数 & 3 & 322 & 322 & 322\\
+%			切片 & 687221.429 & 687221.429 & 687221.429 & 687221.429\\
+		\end{tabular}
+		\label{table1}
+	\end{center}
+\end{table}
+
+\section{Sample sentences}
+The goal of the International Graduate Program created by the Civil Engineering 
+Department at the University of Tokyo is to prepare its graduating students 
+to become future international leaders. Here, at the Civil Engineering Department, 
+we are well aware of the skills, both academically and professionally, 
+that are essential for success in the current global situation. Experimentation, 
+exploration and involvement in key projects in various academic fields and industries 
+offer students crucial experience and skills needed for developing and 
+integrating competencies necessary for participation on an international level 
+in our expanding global world. 
+In our program, we strive to create an environment, which stimulates students 
+to fully realize their individual potentials. And, the most valuable resource we offer 
+is our human network, built with both current and future well recognized professionals.
+
+\vspace{\baselineskip}%used when you use vertical space
+社会基盤学は、人の生活と環境に関わる多様な専門分野を総合化し、私達の身近にあって、その暮らしを支えてきた
+実践的学問体系です。基盤技術を中心に、水環境や生態系、都市問題、防災、地域や国土の計画、社会資本政策や
+プロジェクトマネジメント、国際協力など、ひとつの学科にまとまるとは思えないほどのフィールドの広さを社会基盤学は
+カバーしています。それらの共通点は私たちの生活基盤づくり、自然環境づくりに関わっているということに尽きると思います。
+人間・自然環境の再生と創造を実現するために必要な、基盤技術・デザイン・政策決定・マネジメントなどに関する
+研究・開発・実践を行うことが社会基盤学の目的です。
+
+(Source : http://www.civil.t.u-tokyo.ac.jp/)
+
+\end{document}
