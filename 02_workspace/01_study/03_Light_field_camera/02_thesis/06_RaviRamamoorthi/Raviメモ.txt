@@ -1,0 +1,25 @@
+Ravi Ramamoorthi ÉÅÉÇ
+ÅÉÉäÉìÉNÅÑ
+http://cseweb.ucsd.edu/~viscomp/projects/LF/
+ÅÉò_ï∂ÅÑ
+Å@1. External Mask Based Depth and Light Field Camera
+Åù2. Depth from Combining Defocus and Correspondence Using Light-Field Cameras
+ÅZ3. Depth estimation for glossy surfaces with light-field cameras
+ÅZ4. Depth estimation and specular removal for glossy surfaces using point and line consistency with light-field cameras
+Å@5. A Light Transport Framework for Lenslet Light Field Cameras
+ÅZ6. Depth from Shading, Defocus, and Correspondence using Light-field Angular Coherence
+Å@7. Oriented Light-Field Windows for Scene Flow
+ÅZ8. Occlusion-aware depth estimation using light-field cameras
+ÅZ9. Depth Estimation with Occlusion Modeling Using Light-field Cameras
+ÅZ10. Depth from Semi-Calibrated Stereo and Defocus
+ÅZ11. SVBRDF-Invariant Shape and Reflectance Estimation from Light-Field Cameras
+ÅZ12. Shape Estimation from Shading, Defocus, and Correspondence Using Light-Field Angular Coherence
+Å@13. A 4D Light-Field Dataset and CNN Architectures for Material Recognition
+Å@14. Learning-Based View Synthesis for Light Field Cameras
+ÅZ15. Robust Energy Minimization for BRDF-Invariant Shape from Light Fields
+Å@16. Light Field Blind Motion Deblurring
+ÅZ17. SVBRDF-Invariant Shape and Reflectance Estimation from Light-Field Cameras
+Å@18. Light Field Video Capture Using a Learning-Based Hybrid Imaging System
+Å@19. Deep High Dynamic Range Imaging of Dynamic Scenes
+ÅZ20. Depth and Image Restoration from Light Field in a Scattering Medium
+Å@21. Learning to Synthesize a 4D RGBD Light Field from a Single Image
