@@ -1,0 +1,24 @@
+Michael Tao メモ
+＜略歴と論文＞
+#2006 UCバークレー入学 Electrical Engineering and Computer Science(Advisor: Brian Barsky)
+　1.(2009) Depth of field postprocessing for layered scenes using constant-time rectangle spreading(35)
+　2.(2010) Error-tolerant image compositing(46)
+#2010 UCバークレー(院)入学 Computer Vision and Image Processing (Advisors: Ravi Ramamoorthi and Jitendra Malik)
+　3.(2012) SimpleFlow: A Non‐iterative, Sublinear Optical Flow Algorithm(130)
+　4.(2012) Fast adaptive edge-aware mask generation(2)
+　5.(2012) Variably fast and continuous bilateral approximation filtering using histogram manipulations(12)
+◎6.(2013) Depth from combining defocus and correspondence using light-field cameras(250)
+　7.(2013) Sharpening Out of Focus Images using High‐Frequency Transfer(7)
+　8.(2013) Error-tolerant image compositing(36)
+　9.(2014) Adaptive bilateral blur brush tool(9)
+〇10.(2014) Depth estimation for glossy surfaces with light-field cameras(30)
+　11.(2014) Fast adaptive edge-aware matting(4)
+〇12.(2015) Depth from shading, defocus, and correspondence using light-field angular coherence(59)
+〇13.(2015) Oriented light-field windows for scene flow(13)
+〇14.(2015) Unified Multi-Cue Depth Estimation from Light-Field Images: Correspondence, Defocus, Shading, and Specularity(2)
+〇15.(2015) Depth estimation using normalized displacement of image pairs(0)
+#2015 Light入社
+〇16.(2016) Depth estimation using three-dimensional epipolar data structures(10)
+〇17.(2016) Depth estimation and specular removal for glossy surfaces using point and line consistency with light-field cameras(21)
+#2016 Apple入社
+〇18.(2017) Shape estimation from shading, defocus, and correspondence using light-field angular coherence(22)
