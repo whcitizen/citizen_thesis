@@ -1,0 +1,973 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.10)  13 JUL 2018 19:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**review.tex
+(./review.tex
+LaTeX2e <2018-04-01> patch level 5
+(./review.aux)
+\openout1 = `review.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character 遺 (U+907A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺
+        伝的アルゴリズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 伝 (U+4F1D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝
+           的アルゴリズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 的 (U+7684)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的
+              アルゴリズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ア (U+30A2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的ア
+                 ルゴリズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ル (U+30EB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アル
+                    ゴリズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ゴ (U+30B4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴ
+                       リズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character リ (U+30EA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリ
+                          ズムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ズ (U+30BA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズ
+                             ムについては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ム (U+30E0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズム
+                                については，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズムに
+                                   ついては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character つ (U+3064)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズムにつ
+                                      いては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズムについ
+                                         ては，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズムについて
+                                            は，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズムについては
+                                               ，伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ， (U+FF0C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	遺伝的アルゴリズムについては，
+                                                  伊藤~\cite{110009437921}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 伊 (U+4F0A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�的アルゴリズムについては，伊
+                                                  藤~\cite{110009437921}に...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 藤 (U+85E4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�アルゴリズムについては，伊藤
+                                                  ~\cite{110009437921}に詳...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no [ in font nullfont!
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.3 ...��ついては，伊藤~\cite{110009437921}
+                                                  に詳しく述べられ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `110009437921' on page  undefined on input line 3.
+
+Missing character: There is no ] in font nullfont!
+
+! Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��いては，伊藤~\cite{110009437921}に
+                                                  詳しく述べられて�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 詳 (U+8A73)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��ては，伊藤~\cite{110009437921}に詳
+                                                  しく述べられてい�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character し (U+3057)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��は，伊藤~\cite{110009437921}に詳し
+                                                  く述べられている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character く (U+304F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��，伊藤~\cite{110009437921}に詳しく
+                                                  述べられている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 述 (U+8FF0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��伊藤~\cite{110009437921}に詳しく述
+                                                  べられている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character べ (U+3079)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��藤~\cite{110009437921}に詳しく述べ
+                                                  られている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ら (U+3089)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...��~\cite{110009437921}に詳しく述べら
+                                                  れている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character れ (U+308C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...\cite{110009437921}に詳しく述べられ
+                                                  ている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...te{110009437921}に詳しく述べられて
+                                                  いる．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...110009437921}に詳しく述べられてい
+                                                  る．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...009437921}に詳しく述べられている
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ． (U+FF0E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...437921}に詳しく述べられている．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 団 (U+56E3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団
+        塊世代がインターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 塊 (U+584A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊
+           世代がインターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 世 (U+4E16)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世
+              代がインターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 代 (U+4EE3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代
+                 がインターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character が (U+304C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代が
+                    インターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character イ (U+30A4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がイ
+                       ンターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ン (U+30F3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がイン
+                          ターネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character タ (U+30BF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインタ
+                             ーネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインター
+                                ネットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ネ (U+30CD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインターネ
+                                   ットの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ッ (U+30C3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインターネッ
+                                      トの利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ト (U+30C8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインターネット
+                                         の利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインターネットの
+                                            利用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 利 (U+5229)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインターネットの利
+                                               用に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 用 (U+7528)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 	団塊世代がインターネットの利用
+                                                  に抵抗感を持つこ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�世代がインターネットの利用に
+                                                  抵抗感を持つこと�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 抵 (U+62B5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�代がインターネットの利用に抵
+                                                  抗感を持つことが�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 抗 (U+6297)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�がインターネットの利用に抵抗
+                                                  感を持つことが，�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 感 (U+611F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�インターネットの利用に抵抗感
+                                                  を持つことが，報�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character を (U+3092)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ンターネットの利用に抵抗感を
+                                                  持つことが，報告�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 持 (U+6301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ターネットの利用に抵抗感を持
+                                                  つことが，報告さ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character つ (U+3064)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ーネットの利用に抵抗感を持つ
+                                                  ことが，報告され�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character こ (U+3053)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ネットの利用に抵抗感を持つこ
+                                                  とが，報告されて�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character と (U+3068)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ットの利用に抵抗感を持つこと
+                                                  が，報告されてい�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character が (U+304C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�トの利用に抵抗感を持つことが
+                                                  ，報告されている�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ， (U+FF0C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�の利用に抵抗感を持つことが，
+                                                  報告されている．~\...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 報 (U+5831)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�利用に抵抗感を持つことが，報
+                                                  告されている．~\cit...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character 告 (U+544A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�用に抵抗感を持つことが，報告
+                                                  されている．~\cite{S...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character さ (U+3055)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�に抵抗感を持つことが，報告さ
+                                                  れている．~\cite{Suo2...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character れ (U+308C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�抵抗感を持つことが，報告され
+                                                  ている．~\cite{Suo2012}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�抗感を持つことが，報告されて
+                                                  いる．~\cite{Suo2012}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�感を持つことが，報告されてい
+                                                  る．~\cite{Suo2012}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�を持つことが，報告されている
+                                                  ．~\cite{Suo2012}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ． (U+FF0E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�持つことが，報告されている．
+                                                  ~\cite{Suo2012}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no [ in font nullfont!
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.4 ...�，報告されている．~\cite{Suo2012}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Suo2012' on page  undefined on input line 4.
+
+Missing character: There is no ] in font nullfont!
+No file review.bbl.
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{document}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{c:/w32tex/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+(./review.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 66 strings out of 492645
+ 529 string characters out of 6131888
+ 56409 words of memory out of 5000000
+ 4045 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 20i,4n,27p,147b,109s stack positions out of 5000i,500n,10000p,500000b,80000s
+<c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+Output written on review.pdf (1 page, 9923 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
