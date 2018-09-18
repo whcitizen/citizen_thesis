@@ -1,0 +1,245 @@
+\documentclass{jsarticle} % pLaTeX を使う場合
+%\documentclass[uplatex]{jsarticle} % upLaTeX を使う場合。しおりが文字化けする
+\bibliographystyle{jplain}%参考文献
+\usepackage{atbegshi}
+\AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}%文字コード
+\usepackage{amsmath}%数式
+\usepackage{tabularx}%幅が可変な表など
+\usepackage{multirow}%行の結合
+\usepackage{longtable}%ページ跨ぎの表
+\usepackage[dvipdfmx, hiresbb]{graphicx, xcolor}%図・色を使う
+\usepackage{bm}%ベクトル用太斜体
+\usepackage[normalem]{ulem}
+\usepackage{lscape}%横向き
+\usepackage{fancyhdr}%ヘッダ
+\usepackage{listings}%ソースコードリストjlistingを追加しよう
+\usepackage{comment}%複数行コメント
+%\usepackage{geometry}%ページごと余白
+\usepackage[dvipdfmx,%
+bookmarks=true,%しおりを作るか
+bookmarksnumbered=true,%しおりに節番号をつけるか
+bookmarksopen=true,%しおりのツリーを開くか
+anchorcolor=black,%アンカーテキストの色指定
+citecolor=green,%参考文献リンクの色指定
+filecolor=magenta,%ローカルファイルリンクの色指定
+linkcolor=red,%pdfファイルのリンクの色指定
+urlcolor=magenta,%外部参照しているURLの色指定
+colorlinks=false,%リンクの文字に色をつけるか
+linkbordercolor={0 0 0},%リンクを囲むボックスの色
+pdfborder={0 0 0},%
+pdftitle={},%
+pdfsubject={2018年度東京大学大学院工学系研究科社会基盤学専攻修士論文},%
+pdfauthor={},%
+pdfkeywords={},%
+]{hyperref}%しおり・文書情報
+
+%----------目次の設定----------
+\setcounter{tocdepth}{3}%目次でどこまで出力するか
+
+%----------論文要旨のレイアウト----------
+\renewcommand{\abstractname}{論文要旨}
+\renewenvironment{abstract}{%
+	\setlength{\headsep}{0pt}
+	\setlength{\headheight}{0pt}
+	\setlength{\textheight}{39\baselineskip}
+	\addtolength{\textheight}{\topskip}
+	\begin{center}{\fontsize{12pt}{20pt}\selectfont \textgt \abstractname}\end{center}
+	\fontsize{10.5pt}{19pt}\selectfont%文字サイズ，行間
+}%要旨の余白・フォント設定
+
+%----------ソースコードの設定----------
+\renewcommand{\lstlistingname}{リスト}%ソースコードのコメントに日本語がある場合，「//」の他，全角カンマや半角引用符の後ろに半角スペースを入れないと出力がおかしくなるバグあり
+\lstset{%ソースコードの表示設定
+	language={C++},%
+	backgroundcolor={\color[gray]{.95}},%
+	basicstyle={\small\ttfamily},%標準書体
+	identifierstyle={\small},%
+	commentstyle={\small\rmfamily \color[rgb]{0,0.5,0}},%コメント書体
+	classoffset=0,%関数名等の色の設定
+	keywordstyle={\small\sffamily\bfseries \color[rgb]{1,0,0}},%intやifの書体
+	ndkeywordstyle={\small},%
+	stringstyle={\small\ttfamily \color[rgb]{0,0,1}},%表示する文字の書体
+	frame={tb},%
+	breaklines=true,%自動改行
+	breakindent=10pt,%改行後のインデント量（デフォは20pt）
+	columns=[l]{fullflexible},%
+	numbers=left,%行番号の位置
+	tabsize=4,%タブの大きさ
+	xrightmargin=0zw,%
+	xleftmargin=3zw,%
+	numberstyle={\scriptsize},%行番号の書体
+	stepnumber=1,%行番号の間隔
+	numbersep=1zw,%
+	lineskip=-0.5ex%
+}
+
+%----------謝辞のレイアウト----------
+\newenvironment{heightchange}{%
+	\setlength{\textheight}{680pt}
+}%謝辞用の本文領域の高さ設定（ページが変わる前じゃないと効かない）
+
+\makeatletter
+
+%-----enumerate環境の設定-----
+\renewcommand{\p@enumii}{}%番号付箇条書きenumerate環境における2段階目のlabelとrefの出力を変更
+
+%-----数式番号を(章-節毎の番号)に変更-----
+\renewcommand{\theequation}{%
+\thesection.\arabic{equation}}
+\@addtoreset{equation}{section}
+
+%-----図番号を(章-節毎の番号)に変更-----
+\renewcommand{\thefigure}{%
+\thesection.\arabic{figure}}
+\@addtoreset{figure}{section}
+
+%-----表番号を(章-節毎の番号)に変更-----
+\renewcommand{\thetable}{%
+\thesection.\arabic{table}}
+\@addtoreset{table}{section}
+
+%-----longtableにおけるcaptionの付け方をjsarticleと同様に-----
+\def\LT@makecaption#1#2#3{%
+	\LT@mcol\LT@cols c{\hbox to\z@%
+		{\hss\parbox[t]\LTcapwidth{%
+				\sbox\@tempboxa{#1{\normalsize #2\hskip1zw\relax}\normalsize#3}%
+				\ifdim\wd\@tempboxa>\hsize
+				#1{\normalsize #2\hskip1zw\relax}\normalsize #3%
+				\else%
+				\hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+				\fi%
+				\endgraf\vskip\baselineskip}%
+			\hss}}}%
+
+%----------表紙のレイアウト----------
+\def\@thesis{2018年度修士論文}
+\def\@ChiefExaminer{主査：}
+\def\@SubChiefExaminer{副査：}
+\def\id#1{\def\@id{#1}}
+\def\EngTitle#1{\def\@EngTitle{#1}}
+\def\department#1{\def\@department{#1}}
+\def\ChiefName#1{\def\@ChiefName{#1}}
+\def\SubChiefName#1{\def\@SubChiefName{#1}}
+
+\def\@maketitle{
+	\begin{center}
+		{\Large \@thesis \par}
+		\vspace{10mm}
+		{\huge \bf \@title \par}
+		\vspace{5mm}
+		{\Large \@EngTitle \par}
+		\vspace{10mm}
+		{\Large \@id \@author \par}
+		\vspace{40mm}
+		{\Large \bf \@ChiefExaminer}
+		{\Large \@ChiefName \par}
+		\vspace{3mm}
+		{\Large \bf \@SubChiefExaminer}
+		{\Large \@SubChiefName \par}
+		\vspace{10mm}
+		\begin{tabularx}{100mm}{|X|r|r|}
+			\hline
+			\multicolumn{1}{|c|}{署名} & \multicolumn{1}{c|}{　日付　} & \multicolumn{1}{c|}{　印　} \\ \hline
+			\rule[-2mm]{0mm}{14mm} 
+			\begin{minipage}{50mm}
+			\end{minipage}%
+			&%
+			\begin{minipage}{15mm}
+			\end{minipage}%
+			&%
+			\begin{minipage}{15mm}
+			\end{minipage}%
+			\\ \hline
+			\rule[-2mm]{0mm}{14mm} 
+			\begin{minipage}{50mm}
+			\end{minipage}%
+			&%
+			\begin{minipage}{15mm}
+			\end{minipage}%
+			&%
+			\begin{minipage}{15mm}
+			\end{minipage}%
+			\\ \hline
+		\end{tabularx}
+		\par
+		\vspace{20mm}
+		{\Large \@department \par}
+		\vspace{10mm}
+		{ \@date }
+		\vspace{10mm}
+	\end{center}
+	\par\vskip 1.5em
+}
+
+\makeatother
+
+%----------表紙の内容をここに書く----------
+\title{タイトル}
+\date{2019年1月XX日}
+\EngTitle{title}
+\department{東京大学大学院 工学系研究科 社会基盤学専攻}
+\id{37-XXXXX}
+\author{XXX}
+\ChiefName{布施 孝志 教授}
+\SubChiefName{XXX}
+
+\begin{document}
+\pagenumbering{Roman}%ページ番号を大文字のローマ数字にする
+%----------表紙----------
+\thispagestyle{empty}%ヘッダ・フッター・ページ番号なし
+\maketitle
+\newpage
+
+%----------要旨----------
+\thispagestyle{empty}%ヘッダ・フッター・ページ番号なし
+\input abstract.tex
+\newpage
+
+%----------目次・図目次・表目次のページスタイルの設定----------
+\pagestyle{fancy}
+\rhead{}%ヘッダ右はなし
+\lhead{\rightmark}%ヘッダ左は[目次,図目次or表目次]と表示
+\pagenumbering{roman}%ページ番号を小文字のローマ数字にする
+
+%----------目次----------
+\tableofcontents
+\newpage
+
+%----------図目次----------
+\listoffigures
+\newpage
+
+%----------表目次----------
+\listoftables
+\newpage
+
+%----------本文のページスタイルの設定----------
+\pagestyle{fancy}
+\rhead{\rightmark}%ヘッダ右に章見出し
+\lhead{\leftmark}%ヘッダ左に節見出し
+\pagenumbering{arabic}%ページ番号をアラビア数字にする
+
+%----------第１章---------
+\input chapter1
+\clearpage
+
+%----------第２章----------
+\input chapter2
+\clearpage
+
+%----------参考文献----------
+\pagestyle{fancy}
+\rhead{}%ヘッダ右はなし
+\lhead{\rightmark}%ヘッダ左に参考文献と表示
+\bibliography{reference}%bibファイルによる管理
+\addcontentsline{toc}{section}{参考文献}%目次に参考文献を加える
+\clearpage
+
+%----------謝辞----------
+\begin{heightchange}
+	\newpage
+	\thispagestyle{empty}%ページ番号も入らないので注意
+	\input acknowledgements
+\end{heightchange}
+
+\end{document}
