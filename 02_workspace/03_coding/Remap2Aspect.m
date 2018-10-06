@@ -1,0 +1,38 @@
+% Filename: Remap2Aspects.m
+% 再配列した画像から多視点画像を生成
+
+% 計時開始
+tic
+
+% 関数を動かすのに必要な変数を入力
+% LF_Remap
+LF_Remap = im2double(imread('output/Remap_radius/PostBookTiger-remap_radius3(Standard).png'));
+
+% image_cords
+load('required/GridCoordsA')
+
+% LF_parameters
+UV_radius           = 3; % 標準は3
+UV_diameter         = (2*UV_radius+1);
+UV_size             = UV_diameter^2;
+LF_x_size           = size(GridCoordsi_round,2)*UV_diameter;
+LF_y_size           = size(GridCoordsi_round,1)*UV_diameter;
+x_size              = size(GridCoordsi_round,2);
+y_size              = size(GridCoordsi_round,1);
+
+LF_parameters       = struct('LF_x_size',LF_x_size,...
+                             'LF_y_size',LF_y_size,...
+                             'x_size',x_size,...
+                             'y_size',y_size,...
+                             'UV_radius',UV_radius,...
+                             'UV_diameter',UV_diameter...
+                             );
+
+%関数を動かす
+[IM_PINhole, x_asp, y_asp] = REMAP2PINHOLE...
+                             (LF_Remap, LF_parameters);
+        
+% 計測時間の表示
+fprintf('Completed in %.3f seconds\n', toc);
+
+% End of program
