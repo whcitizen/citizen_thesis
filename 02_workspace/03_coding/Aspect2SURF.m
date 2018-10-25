@@ -1,4 +1,4 @@
-% Filename: Aspect2SURF
+% Filename: Aspect2SURF.m
 % 多視点画像からSURF特徴点を検出、マッチング
 
 %計時開始
@@ -14,7 +14,7 @@ I2 = rgb2gray(preI2);
 
 % SURF特徴量を見つける
 % MetricThresholdは閾値(デフォルトは1000)
-threshold = 200;
+threshold = 0;
 points1 = detectSURFFeatures(I1, 'MetricThreshold', threshold);
 points2 = detectSURFFeatures(I2, 'MetricThreshold', threshold);
 
